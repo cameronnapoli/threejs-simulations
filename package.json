@@ -1,0 +1,17 @@
+{
+  "name": "threejs-simulations",
+  "version": "1.0.0",
+  "description": "Simulations using Three.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx vite"
+  },
+  "author": "Cameron Napoli",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
+  }
+}
