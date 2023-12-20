@@ -4,7 +4,8 @@
   "description": "Simulations using Three.js",
   "main": "main.js",
   "scripts": {
-    "start": "npx vite"
+    "start": "npx vite",
+    "build": "vite build"
   },
   "author": "Cameron Napoli",
   "license": "ISC",
