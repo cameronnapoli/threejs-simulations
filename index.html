@@ -9,6 +9,23 @@
 			body {
 				margin: 0;
 			}
+			.github-button {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				margin: 1rem;
+				padding: 0.5rem 1rem;
+				border: 1px solid white;
+				border-radius: 8px;
+				font-family: sans-serif;
+				font-weight: 700;
+				color: white;
+				background-color: rgba(0, 0, 0, 0.5);
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				cursor: pointer;
+			}
 		</style>
     <script type="importmap">
 			{
@@ -21,5 +38,21 @@
 	</head>
 	<body>
 		<script type="module" src="/main.js"></script>
+		<a
+			href="https://github.com/cameronnapoli/threejs-simulations"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<button class="github-button">
+				<img
+					src="/assets/github-mark-white.svg"
+					alt="GitHub"
+					width="16"
+				/>
+				<div>
+					Check out the code
+				</div>
+			</button>
+		</a>
 	</body>
 </html>
